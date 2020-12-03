@@ -1,0 +1,26 @@
+{
+  "name": "first_express_app_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tregulovailmira/first_express_app_homework.git"
+  },
+  "author": "ilmira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tregulovailmira/first_express_app_homework/issues"
+  },
+  "homepage": "https://github.com/tregulovailmira/first_express_app_homework#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
