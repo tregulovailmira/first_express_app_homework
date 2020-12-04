@@ -19,6 +19,7 @@ module.exports.editMessage = (req, res) => {
         email: oldMessage.email,
         texMessage: body.textMessage,
         createdAt: oldMessage.createdAt,
+        isEdit: true,
       };
       forumMessages.set(body.id, editedMessage);
       res.status(200).send(editedMessage);
