@@ -1,0 +1,25 @@
+POST http://localhost:3000/forum
+Content-Type: application/json
+
+{
+    "email": "validemail@gmail.com",
+    "textMessage": "First test message"
+}
+
+POST http://localhost:3000/forum
+Content-Type: application/json
+
+{
+    "email": "validemail@gmail.com",
+    "createdAt": "2020-12-01T20:53:47",
+    "textMessage": "Second test message"
+}
+
+POST http://localhost:3000/forum
+Content-Type: application/json
+
+{
+    "email": "validemail@gmail.com",
+    "createdAt": "2020-12-22T20:53:47",
+    "textMessage": "Third test message"
+}

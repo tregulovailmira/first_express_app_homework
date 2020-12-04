@@ -1,0 +1,17 @@
+PATCH http://localhost:3000/forum
+Content-Type: application/json
+
+{
+    "id": "1607034223042",
+    "email": "validemail@gmail.com",
+    "textMessage": "New test message"
+}
+
+PATCH http://localhost:3000/forum
+Content-Type: application/json
+
+{
+    "id": "1607034109721",
+    "email": "novalidemail@gmail.com",
+    "textMessage": "New test message"
+}
